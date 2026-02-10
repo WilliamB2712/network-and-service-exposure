@@ -33,6 +33,7 @@ curl -sL https://www.inlanefreight.com | tr "'" "\n" | grep '/directory'
 curl -sL https://www.inlanefreight.com | tr "'" "\n" | grep '/directory' | sort -u 
 curl -sL https://www.inlanefreight.com | tr "'" "\n" | grep '/directory' | sort -u | wc -l
 ```
+---
 
 ## Key Takeaways
 
@@ -42,7 +43,7 @@ wc -l counts lines, not matches
 
 CLI pipelines can replace complex tooling
 
-Blue Team Relevance
+## Blue Team Relevance
 
 Web content reconnaissance
 
