@@ -33,6 +33,8 @@ netstat -tuln | grep LISTEN | grep -v "127.0.0\|tcp6" | wc -l
 ```
 Each line represents one externally exposed listening socket.
 
+---
+
 ## Key Takeaways
 
 /etc/services does not reflect runtime exposure
@@ -41,7 +43,7 @@ Services exist only when a socket is open
 
 IP binding determines real attack surface
 
-Blue Team Relevance
+## Blue Team Relevance
 
 Asset exposure discovery
 
